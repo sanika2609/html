@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pole Example</title>
+    <style>
+        .pole {
+            width: 50px;        /* Width of the pole */
+            height: 300px;      /* Height of the pole */
+            background-color: #8B4513; /* Brown color for the pole */
+            margin: 20px auto;  /* Centering the pole */
+        }
+    </style>
+</head>
+<body>
+    <div class="pole"></div>  <!-- Pole element -->
+</body>
+</html>
