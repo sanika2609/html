@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+</head>
+<body>
+    <h2>What is your favorite programming language?</h2>
+    <form action="/submit_poll" method="POST">
+        <label>
+            <input type="radio" name="language" value="Python"> Python
+        </label><br>
+        <label>
+            <input type="radio" name="language" value="JavaScript"> JavaScript
+        </label><br>
+        <label>
+            <input type="radio" name="language" value="Java"> Java
+        </label><br>
+        <label>
+            <input type="radio" name="language" value="C++"> C++
+        </label><br><br>
+        <button type="submit">Vote</button>
+    </form>
+</body>
+</html>
